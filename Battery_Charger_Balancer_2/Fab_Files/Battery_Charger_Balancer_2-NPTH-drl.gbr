@@ -1,0 +1,30 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
+%TF.CreationDate,2026-03-07T19:33:41-05:00*%
+%TF.ProjectId,Battery_Charger_Balancer_2,42617474-6572-4795-9f43-686172676572,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.7) date 2026-03-07 19:33:41*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,0.700000*%
+%TD*%
+%TA.AperFunction,ComponentDrill*%
+%ADD11C,1.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X27160000Y-18305000D03*
+X32940000Y-18305000D03*
+D11*
+%TO.C,J2*%
+X13700000Y-31600000D03*
+%TO.C,J5*%
+X14250000Y-74300000D03*
+M02*
