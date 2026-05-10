@@ -96,6 +96,98 @@
         [
           "shorting_items|23062500|20050000|1238b107-e5e5-4fe2-9891-82f0c1e2f791|a42a60eb-1cb1-4f9d-a92d-bef2d63f759e",
           ""
+        ],
+        [
+          "silk_edge_clearance|25580000|12025000|c5205cb4-d156-451a-a2a9-0cffcc69d345|5db63ba5-ab94-4530-aab1-b7ac1584163d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|34520000|12025000|c5205cb4-d156-451a-a2a9-0cffcc69d345|c3026436-bca9-418e-a85d-3747bb68695e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|47921276|13703399|64dacef4-4480-4fa8-9c7b-ad8d726f1a14|56180de9-2691-4b15-ae52-a5931288c6c2",
+          ""
+        ],
+        [
+          "silk_edge_clearance|47947500|60310000|6a9f5c33-9a3d-4998-bc22-432bbd85cc01|253bc778-35e7-4a06-bbec-81618de91f04",
+          ""
+        ],
+        [
+          "silk_edge_clearance|47947500|70460000|6a9f5c33-9a3d-4998-bc22-432bbd85cc01|97f31c71-7b86-4d3a-801a-1a485c0ede65",
+          ""
+        ],
+        [
+          "silk_edge_clearance|48000000|22796600|6a9f5c33-9a3d-4998-bc22-432bbd85cc01|e64602da-d2ec-457d-b599-911dd9a26f5f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|17437500|13712500|4ae56b1a-6d11-4212-89ce-a2ee810eefc1|8a42938a-a275-44e5-8e6d-37a52efdaf1c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|17437500|13712500|4ae56b1a-6d11-4212-89ce-a2ee810eefc1|9ccfe697-1b08-40b0-be4c-d09937933904",
+          ""
+        ],
+        [
+          "solder_mask_bridge|17437500|13950000|9ccfe697-1b08-40b0-be4c-d09937933904|635016ff-6d5d-47db-bf55-74ac973e019f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|17437500|14250000|9ccfe697-1b08-40b0-be4c-d09937933904|8a42938a-a275-44e5-8e6d-37a52efdaf1c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|21387500|13712500|36310a23-4973-4c36-9cb4-75bc33b0e71f|8bd4bc30-c179-4fb4-8f9b-188c0cc83b16",
+          ""
+        ],
+        [
+          "solder_mask_bridge|21387500|13712500|36310a23-4973-4c36-9cb4-75bc33b0e71f|aaf0958c-2680-4f16-b567-80b195d489a0",
+          ""
+        ],
+        [
+          "solder_mask_bridge|21387500|13950000|aaf0958c-2680-4f16-b567-80b195d489a0|e5b0f28e-af5e-4e41-aca3-efcb3861cefa",
+          ""
+        ],
+        [
+          "solder_mask_bridge|21387500|14250000|aaf0958c-2680-4f16-b567-80b195d489a0|8bd4bc30-c179-4fb4-8f9b-188c0cc83b16",
+          ""
+        ],
+        [
+          "solder_mask_bridge|23062500|19750000|a42a60eb-1cb1-4f9d-a92d-bef2d63f759e|43840ef0-2f27-4584-b1c4-5647da8270c7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|23062500|20050000|a42a60eb-1cb1-4f9d-a92d-bef2d63f759e|1238b107-e5e5-4fe2-9891-82f0c1e2f791",
+          ""
+        ],
+        [
+          "solder_mask_bridge|23062500|20287500|3e744f55-e5bf-4f93-aae1-29ad9f5c3a78|43840ef0-2f27-4584-b1c4-5647da8270c7",
+          ""
+        ],
+        [
+          "solder_mask_bridge|23062500|20287500|3e744f55-e5bf-4f93-aae1-29ad9f5c3a78|a42a60eb-1cb1-4f9d-a92d-bef2d63f759e",
+          ""
+        ],
+        [
+          "solder_mask_bridge|36550000|65062500|ac6bcef4-51cd-4bb1-96d3-1df3a28b7d6b|a4874b54-e8ec-4ca9-b83d-b11c32519c3b",
+          ""
+        ],
+        [
+          "solder_mask_bridge|36550000|66712500|6eabec6f-bc04-4721-8f42-df09669ece0b|0c609293-4636-41a2-9713-f99596fbf03b",
+          ""
+        ],
+        [
+          "solder_mask_bridge|36550000|68362500|c127d13c-a713-4181-b744-d07c5b6f9d04|d7b64eb4-1bfe-4ee8-bdf6-7699045c64ea",
+          ""
+        ],
+        [
+          "solder_mask_bridge|36550000|70012500|d31a8bb0-ff29-4373-8958-7ab2d3be79cf|f6aaf87c-8959-4534-a004-7b70f2e33074",
+          ""
+        ],
+        [
+          "text_thickness|37800000|73350000|e85d48ee-fa65-4027-9391-9824b8309e6d|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -143,7 +235,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "warning",
@@ -154,7 +246,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "error",
-        "track_not_centered_on_via": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",

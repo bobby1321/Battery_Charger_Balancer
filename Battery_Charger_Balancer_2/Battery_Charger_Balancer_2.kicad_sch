@@ -5777,17 +5777,7 @@
 		)
 		(uuid "4228b937-add6-4e79-8504-f2572e699d03")
 	)
-	(text "Note: Need to figure out proper R/C values for gate pin slew rate"
-		(exclude_from_sim no)
-		(at 166.116 14.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "43233fd2-f61c-49ca-a34e-c99dbc74b7f5")
-	)
-	(text "2.43A I_LIM"
+	(text "2.06A I_LIM"
 		(exclude_from_sim no)
 		(at 114.046 153.67 0)
 		(effects
@@ -5888,7 +5878,7 @@
 		)
 		(uuid "ef1ab687-8088-442e-abbd-49eb5efc4b78")
 	)
-	(text "TABLE_SEL = 1, PSEL1 = 000, PSEL2 = 001\nUSB_SET set for \"No USB Ability\"\nPATH_OPT set to enable FET when PDO matches\nADDR set to 0x43"
+	(text "TABLE_SEL = 1, PSEL1 = 100, PSEL2 = 001\nUSB_SET set for \"No USB Ability\"\nPATH_OPT set to enable FET when PDO matches\nADDR set to 0x43"
 		(exclude_from_sim no)
 		(at 122.936 85.344 0)
 		(effects
@@ -12548,7 +12538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 388.62 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13784,7 +13774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.7k"
+		(property "Value" "1.62k"
 			(at 118.11 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14999,7 +14989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 388.62 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17461,7 +17451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 388.62 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18397,7 +18387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 388.62 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18811,7 +18801,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "453k"
+		(property "Value" "887k"
 			(at 102.87 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19145,7 +19135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 388.62 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22731,7 +22721,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e6373772-9c3d-4a0d-bc87-ef8f1afd8bcf")
 		(property "Reference" "R25"
