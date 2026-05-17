@@ -1,0 +1,19 @@
+- Add MCU (ATTiny212?) to communicate with charger & PD ICs over I2C to determine max input current and enable ICO on BQ IC when non-PD charger connected
+    When PD charger is connected, query max current and set input current limit to that
+    When non-PD current is connected, FET wil be disabled, set BQ IC to 500mA input limit and enable ICO, enable input FET
+- Only connect linear reguator to charger so MCU & charge disable switch are off when no charger connected (lower idle draw)
+- Also need a new linear regulator since it is DMS?
+
+- Figure out the right way to disable some of the balance ICs (EN pins connected to CELL select jumpers?
+
+- Bigger FET for battery switch?
+- Bigger current sense resistor for battery side (more than 1/2W, P = I^2*R, 0.5/0.01 = 50, sqrt(50) = ~7A, if more than 7A draw from battery to VSYS, sense resistor will explode)
+
+- Reduce dead space on the board as much as possible
+- Move PD IC to bottom side and try and make board shorter
+- Move switch to top ege of board next to USB-C connector for easier access
+- Right angle JST connectors? Do they take up less board space?
+- Think about mounting holes before the last second
+- Smaller (physical size) inductor for BQ IC? What is the real maximum switching current?
+- Add some fun silkscreen art
+- Maybe reduce silkscreen ref des quantity and rely on layout for ref des?
